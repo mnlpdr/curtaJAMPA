@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    margin-bottom: 150px;
+}
+
+#icon-site {
+    float: left;
+    margin-left: 30px;
+}
+
+.menu {
+    margin-left: 45%;
+}
+
+.menu > li {
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;  
+    font-size: 1.1rem;
+}
+
+
+.menu > li > a {
+    text-decoration: none;
+    color: black;
+    text-shadow: rgba(0, 0, 0, 0.281) 2px 3px 5px;
+    filter: brightness(100%);
+}
+
+.menu > li > a:hover {
+    color:rgb(110, 109, 109);
+    transition: 0.3s;
+}
+
+.opcoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.opcoes > div {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.opcoes > div > a {
+    text-decoration: none;
+    color: black;   
+}
+
+.opcoes > div > a > img {
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.315) 2px 5px 5px;
+    filter: brightness(90%);
+}
+
+.opcoes > div > a > img:hover {
+    filter: brightness(115%);
+    transition: 0.3s;
+}
+
+.opcoes > div > a > p {
+    margin-top: 7px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+footer {
+    margin: auto;
+    margin-top: 20px;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    background-color: red;
+}
+
+footer > p {
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
