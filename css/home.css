@@ -1,0 +1,72 @@
+.opcoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+    margin: 0 2%;
+}
+
+.opcoes > div {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.opcoes > div > a {
+    text-decoration: none;
+    color: black;   
+}
+
+.opcoes > div > a > img {
+    border-radius: 20px;
+    width: 95%;
+    box-shadow: rgba(0, 0, 0, 0.315) 2px 5px 5px;
+    filter: brightness(90%);
+}
+
+.opcoes > div > a > img:hover {
+    filter: brightness(115%);
+    transition: 0.3s;
+}
+
+.opcoes > div > a > p {
+    margin-top: 7px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 2rem;
+    color: #026B98;
+}
+
+@media screen and (max-width: 1140px) {
+    .opcoes > div > a > p {
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .opcoes > div > a > p {
+        font-size: 1.2rem;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    .opcoes {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .opcoes > div {
+        flex-basis: 50%;
+        text-align: center;
+        margin-top: 10%;
+    }
+    
+    .opcoes > div > a > img {
+        height: 200px;
+        width: 200px;
+        border-radius: 50% ;
+        font-size: 1rem;
+    }
+    
+}
