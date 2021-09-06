@@ -24,7 +24,7 @@ nav {
     display: grid;
     grid-template-columns: 40% 60%;
     padding-left: 5%;
-    background-color: rgba(255, 255, 255, 0.425);   
+    background-color: rgba(255, 255, 255, 0.603);   
     grid-template-areas: 
     'logo menu';
 }
