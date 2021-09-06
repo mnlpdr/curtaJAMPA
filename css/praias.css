@@ -10,8 +10,10 @@ main {
 }
 
 article {
+    text-align: justify;
     font-size: 1.8rem;
     margin: 0 5% 40px 5%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 @media screen and (max-width: 1140px) {

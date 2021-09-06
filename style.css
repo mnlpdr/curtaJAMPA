@@ -13,7 +13,7 @@ html {
 }
 body {
     height: 100vh;
-    background: url("img/background.jpg") no-repeat ;
+    background: url("img/background.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -74,17 +74,24 @@ main {
 }
 
 footer {
+    z-index: 1;
     margin: auto;
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3rem;
-    background-color: red;
+    background-color: #f1f1f1;
 }
 
-footer > p {
-    text-align: center;
-    font-weight: bolder;
-    color: white;
+footer > div > p {
+    color: #000;
+    margin-left: 40px;
+}
+
+footer > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
 }
 
 @media screen and (max-width: 1140px) {

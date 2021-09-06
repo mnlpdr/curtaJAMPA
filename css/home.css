@@ -13,7 +13,7 @@ header {
 }
 
 .boas-vindas > h1 > span {
-    color: #da0707;
+    color: #fff;
 }
 
 .title {
@@ -60,6 +60,13 @@ header {
     font-size: 2rem;
     color: #000000;
 }
+
+.mapa {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+
 
 @media screen and (max-width: 1140px) {
     .opcoes > div > a > p {
