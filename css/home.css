@@ -1,3 +1,22 @@
+header {
+    height: 100vh;
+    margin: 0;
+}
+
+.boas-vindas {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #FFB200;
+}
+
+.boas-vindas > p > span {
+    color: #ee251e;
+}
+
 .opcoes{
     display: flex;
     align-items: center;
@@ -51,6 +70,14 @@
 }
 
 @media screen and (max-width: 900px) {
+    header {
+        height: auto;
+    }
+
+    .boas-vindas{
+        display: none;
+    }
+
     .opcoes {
         display: flex;
         flex-wrap: wrap;
