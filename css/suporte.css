@@ -4,7 +4,8 @@ ul{
 }
 
 main {
-    min-height: 60%;
+    min-height: auto;
+    padding: 50px;
 }
 
 body, input {
@@ -12,8 +13,9 @@ body, input {
 }
 
 .title {
-    font-size: 2rem;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
 }
 
 .enviar {
@@ -21,7 +23,7 @@ body, input {
     font-size: 1.5rem;
 }
 
-#email, #message {
+#email, #message, #place {
     border: solid 1px rgb(82, 82, 82);
 }
 
