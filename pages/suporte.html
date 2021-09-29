@@ -20,33 +20,41 @@
             </div>
             <div class="nav-bar">
                 <ul class="menu">
-                    <li><a href="#">Início</a></li>
+                    <li><a href="../index.html">Início</a></li>
                     <li><a href="#">Eventos</a></li>
-                    <li><a href="#">Clima e Marés</a></li>
+                    <li><a href="climas.html">Clima e Marés</a></li>
                     <li><a href="suporte.html">Suporte</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-       <form action="" class="text-center">
-           <div>
-               <select name="place" id="place">
-                   <option value=""></option>
-                   <option value="">Sugestão</option>
-                   <option value="">Erro</option>
-               </select>
-           </div>
-           <div>
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email">
-           </div>
-           <div>
-               <label for="message">Mensagem:</label><br>
-               <textarea name="message" id="message" cols="30" rows="3"></textarea>
-           </div>
-           <input class="btn btn-success" type="submit" value="Enviar">
-       </form>
+        <div class="mb-5 text-center">
+            <h1 >Suporte ou dúvidas</h1>
+        </div>
+        <div class="d-flex justify-content-center">
+            <form action="">
+                <div class="mb-3 title">
+                    <label for="place">tipo:</label>
+                    <select name="place" id="place">
+                        <option value=""></option>
+                        <option value="">Sugestão</option>
+                        <option value="">Erro</option>
+                    </select>
+                </div>
+                <div>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <label for="message">Mensagem:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="3"></textarea>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <input class="btn btn-success enviar" type="submit" value="Enviar">
+                </div>
+           </form>
+        </div>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>

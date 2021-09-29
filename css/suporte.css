@@ -2,3 +2,29 @@ ul{
     padding: 0;
     margin-bottom: 0;
 }
+
+main {
+    min-height: 60%;
+}
+
+body, input {
+    font-size: 1.8rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.enviar {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+}
+
+#email, #message {
+    border: solid 1px rgb(82, 82, 82);
+}
+
+#email, #message, #place {
+    border-radius: 5px;
+}
