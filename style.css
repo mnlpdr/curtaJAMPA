@@ -54,14 +54,32 @@ nav {
     list-style: none;
 }
 
-.menu > li > a {
+.menu > li > a, .eventos > div > a {
     text-decoration: none;
     color: #3f9cca;
 }
 
-.menu > li > a:hover {
+.menu > li > a:hover, .eventos > div > a:hover{
     filter: brightness(115%);
     transition: 0.3s;
+    display: block;
+}
+
+.eventos {
+    visibility: hidden;
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgb(230, 227, 227); 
+    padding: 10px;
+}
+
+.evento:hover + .eventos {
+    transition: 1s;
+    visibility: visible;
+}
+
+.eventos:hover {
+    visibility: visible;
 }
 
 main {
@@ -141,6 +159,22 @@ footer > div {
         margin: auto;
         border-radius: 0;
         background-color: rgba(255, 255, 255, 0.808);
+    }
+
+    .eventos {
+        position: static;
+        display: none;
+        visibility: visible;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    
+    .evento:hover + .eventos {
+        transition: 1s;
+        display: block;
+    }
+    
+    .eventos:hover {
+        display: block;
     }
 
     main {
