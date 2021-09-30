@@ -25,10 +25,10 @@
                         <a href="#" class="evento">Eventos</a>
                         <div class="eventos">
                             <div>
-                                <a href="">Carnaval</a>
+                                <a href="carnaval.html">Carnaval</a>
                             </div>
                             <div>
-                                <a href="">São João</a>
+                                <a href="sjoao.html">São João</a>
                             </div>
                         </div>
                     </li>
@@ -42,29 +42,32 @@
         <div class="title">
             <h1 >Você tem alguma sugestão ou dúvida?<br>Entre em contato conosco preenchendo o formulário abaixo!</h1>
         </div>
-        <div class="d-flex justify-content-center">
-            <form action="">
-                <div class="mb-3 title">
-                    <label for="place">Tipo:</label>
-                    <select name="place" id="place">
-                        <option value=""></option>
-                        <option value="">Sugestão</option>
-                        <option value="">Dúvida</option>
-                        <option value="">Bug</option>
+        <div class="form">
+            <form>
+                <div class="mb-3">
+                    <label for="inputState" class="form-label">Escolha o motivo do contato:</label>
+                    <select id="inputState" class="form-select">
+                      <option selected>Clique para escolher...</option>
+                      <option>Dúvida</option>
+                      <option>Sugestões</option>
+                      <option>Bugs</option>
                     </select>
                 </div>
-                <div>
-                        <label for="email">Seu e-mail:</label>
-                        <input type="email" name="email" id="email">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">E-mail para contato:</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Não compartilharemos seu e-mail.</div>
                 </div>
-                <div>
-                    <label for="message">Mensagem:</label><br>
-                    <textarea name="message" id="message" cols="30" rows="3"></textarea>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Mensagem:</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-                <div class="d-flex justify-content-center">
-                    <input class="btn btn-success enviar" type="submit" value="Enviar">
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Concordo em receber e-mails promocionais</label>
                 </div>
-           </form>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
         </div>
     </main>
 

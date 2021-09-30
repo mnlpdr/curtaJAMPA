@@ -8,7 +8,7 @@ main {
     padding: 50px;
 }
 
-body, input {
+body {
     font-size: 1.8rem;
 }
 
@@ -20,13 +20,29 @@ body, input {
 
 .enviar {
     padding: 10px 20px;
-    font-size: 1.5rem;
-}
-
-#email, #message, #place {
-    border: solid 1px rgb(82, 82, 82);
-}
-
-#email, #message, #place {
+    font-size: 2rem;
     border-radius: 5px;
 }
+
+.form-control, .form-select{
+    font-size: 1.6rem;
+}
+
+.btn{
+    font-size: 1.6rem;
+}
+
+label{
+    font-size: 1.6rem;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form form{
+    width: 50%;
+}
+
