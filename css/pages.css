@@ -4,9 +4,22 @@ main {
 }
 
 .title {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagem {
+    margin-bottom: 50px;
+}
+
+.imagem img {
+    margin: 10px;
+    margin-right: 60px;
+    width: 360px;
+    height: 215px;
+    border-radius: 10px;
+    float: right;
 }
 
 article {
@@ -14,6 +27,12 @@ article {
     font-size: 1.8rem;
     margin: 0 5% 40px 5%;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.mapa {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
 }
 
 @media screen and (max-width: 1140px) {

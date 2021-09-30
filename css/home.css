@@ -61,12 +61,6 @@ header {
     color: #000000;
 }
 
-.mapa {
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-bottom: 50px;
-}
-
 
 @media screen and (max-width: 1140px) {
     .opcoes > div > a > p {
